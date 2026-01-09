@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griya Sehat Master SUR - Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom colors for light green and black theme */
+        .bg-light-green { background-color: #A8DADC; } /* Light green */
+        .text-light-green { color: #A8DADC; }
+        .bg-dark-green { background-color: #457B9D; } /* Darker green for accents */
+        .text-dark-green { color: #457B9D; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header / Navigation (Optional, for modern feel) -->
+    <header class="bg-black text-white shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <!-- Logo dari link share Google (asumsikan ini adalah gambar logo atau utama dari share link) -->
+                <img src="assets/images/logo.webp" alt="Logo Griya Sehat Master SUR" class="w-12 h-12 mr-4 rounded-full">
+                <h1 class="text-2xl font-bold text-light-green">Griya Sehat Master SUR</h1>
+            </div>
+            <nav class="space-x-6">
+                <a href="#hero" class="hover:text-light-green">Beranda</a>
+                <a href="#tentang" class="hover:text-light-green">Tentang</a>
+                <a href="#layanan" class="hover:text-light-green">Layanan</a>
+                <a href="#testimoni" class="hover:text-light-green">Testimoni</a>
+                <a href="#kontak" class="hover:text-light-green">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-gradient-to-r from-light-green to-green-200 text-black py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-5xl font-bold mb-4">Selamat Datang di Griya Sehat Master SUR</h2>
+            <p class="text-xl mb-8">Pusat kesehatan terpercaya untuk kebutuhan obat dan konsultasi medis Anda. Kami berkomitmen untuk memberikan pelayanan terbaik dengan harga terjangkau.</p>
+            <a href="#tentang" class="bg-black text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transition duration-300">Pelajari Lebih Lanjut</a>
+            <!-- Gambar hero dari link share Google (asumsikan ini adalah gambar utama dari share link) -->
+            <div class="mt-8">
+                <img src="assets/images/hero.webp" alt="Hero Image Griya Sehat Master SUR" class="mx-auto rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Section -->
+    <section id="tentang" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-black">Tentang Kami</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <!-- Gambar interior dari link share Google (asumsikan ada gambar interior di share link; jika tidak, ganti dengan URL spesifik dari share) -->
+                    <img src="assets/images/about.webp" alt="Interior Griya Sehat" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2 md:pl-8">
+                    <p class="text-lg mb-4">Griya Sehat Master SUR adalah pusat kesehatan modern yang menyediakan berbagai layanan kesehatan, mulai dari penjualan obat-obatan, konsultasi medis, hingga layanan kesehatan preventif. Kami didukung oleh tim profesional yang berpengalaman untuk memastikan kesehatan Anda selalu terjaga.</p>
+                    <p class="text-lg">Dengan lokasi strategis dan fasilitas lengkap, kami siap melayani kebutuhan kesehatan Anda dengan cepat dan efisien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="layanan" class="py-20 bg-light-green">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-black">Layanan Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <!-- Ikon untuk penjualan obat dari link share Google (asumsikan ada gambar relevan di share link) -->
+                    <img src="https://drive.google.com/uc?export=view&id=G8mTCpqmi0UxGxkg8" alt="Penjualan Obat" class="w-20 h-20 mx-auto mb-4 rounded-full">
+                    <h3 class="text-2xl font-semibold mb-4 text-dark-green">Penjualan Obat</h3>
+                    <p class="text-gray-700">Kami menyediakan berbagai jenis obat dengan kualitas terjamin dan harga kompetitif.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <!-- Ikon untuk konsultasi medis dari link share Google -->
+                    <img src="https://drive.google.com/uc?export=view&id=G8mTCpqmi0UxGxkg8" alt="Konsultasi Medis" class="w-20 h-20 mx-auto mb-4 rounded-full">
+                    <h3 class="text-2xl font-semibold mb-4 text-dark-green">Konsultasi Medis</h3>
+                    <p class="text-gray-700">Layanan konsultasi dengan dokter ahli untuk diagnosis dan saran kesehatan.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <!-- Ikon untuk layanan preventif dari link share Google -->
+                    <img src="https://drive.google.com/uc?export=view&id=G8mTCpqmi0UxGxkg8" alt="Layanan Preventif" class="w-20 h-20 mx-auto mb-4 rounded-full">
+                    <h3 class="text-2xl font-semibold mb-4 text-dark-green">Layanan Kesehatan Preventif</h3>
+                    <p class="text-gray-700">Program pencegahan penyakit dan pemeriksaan kesehatan rutin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-black">Testimoni Pelanggan</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg flex items-center">
+                    <!-- Gambar avatar dari link share Google (asumsikan ada gambar orang di share link) -->
+                    <img src="https://drive.google.com/uc?export=view&id=G8mTCpqmi0UxGxkg8" alt="Testimoni 1" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <p class="text-gray-700 mb-4">"Layanan di Griya Sehat Master SUR sangat memuaskan. Obat-obatnya lengkap dan harganya terjangkau. Terima kasih!"</p>
+                        <p class="font-semibold text-dark-green">- Ahmad S.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg flex items-center">
+                    <!-- Gambar avatar dari link share Google -->
+                    <img src="https://drive.google.com/uc?export=view&id=G8mTCpqmi0UxGxkg8" alt="Testimoni 2" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <p class="text-gray-700 mb-4">"Konsultasi dengan dokter di sini sangat membantu. Saya merasa lebih sehat setelah mengikuti saran mereka."</p>
+                        <p class="font-semibold text-dark-green">- Siti R.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="py-20 bg-black text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-light-green">Hubungi Kami</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h3 class="text-2xl font-semibold mb-4">Informasi Kontak</h3>
+                    <p class="mb-2">Alamat: Jl. Sehat No. 123, Kota SUR</p>
+                    <p class="mb-2">Telepon: (021) 123-4567</p>
+                    <p class="mb-2">Email: info@griyasehatmastersur.com</p>
+                    <p>Jam Operasional: Senin - Minggu, 08:00 - 20:00</p>
+                    <!-- Gambar lokasi dari link share Google -->
+                    <img src="https://drive.google.com/uc?export=view&id=G8mTCpqmi0UxGxkg8" alt="Lokasi Griya Sehat" class="mt-4 rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <form class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <div class="mb-4">
+                            <label for="name" class="block text-sm font-medium mb-2">Nama</label>
+                            <input type="text" id="name" class="w-full px-3 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-light-green">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-3 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-light-green">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-sm font-medium mb-2">Pesan</label>
+                            <textarea id="message" rows="4" class="w-full px-3 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-light-green"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-light-green text-black py-2 rounded-lg font-semibold hover:bg-green-300 transition duration-300">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2023 Griya Sehat Master SUR. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
