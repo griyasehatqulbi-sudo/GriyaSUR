@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: griyasehatqulbi-sudo/GriyaSUR # Path to your GitHub repository
+  # optional, defaults to master
+  # branch: main
